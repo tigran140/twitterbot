@@ -17,7 +17,7 @@ const retweetLatest = () => {
       // ...then we grab the ID of the tweet we want to retweetwit...
       let retweetId = data.statuses[0].id_str;
       // ...and then we tell Twitter we want to retweet it!
-      twit.post("statuses/retweet/" + retweetId, {}, (error, response) => {
+      twit.post("statuses/retweet/" + Tyga7777777, {}, (error, response) => {
         if (response) {
           console.log(
             "Success! Check your bot, it should have retweeted something."
